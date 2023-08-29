@@ -1,0 +1,10 @@
+const controllers = {};
+controllers.register = require("./register");
+controllers.login = require("./login");
+controllers.class_details = require("./classDetails");
+controllers.add_class_details = require("./addClassDetails");
+controllers.bmi_categories = require("./bmiCategory");
+controllers.content_categories = require("./contentCategory");
+controllers.forgot_password = require("./forgotPassword");
+controllers.reset_password = require("./resetPassword");
+module.exports = controllers;
